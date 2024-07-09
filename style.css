@@ -1,0 +1,233 @@
+
+Body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e3f4fc;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.245);
+}
+.calculator_page{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start ;
+    gap: 40px;
+    color: #133040;
+}
+.calculator_page .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+.calculator_page .title h1{
+    font-size: 23px;
+    color: #133040;
+}
+.calculator_page .title button{
+    background: transparent;
+    color: #133040;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: large;
+    border-radius: 20px;
+}
+.calculator_page .title button:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.245);
+}
+.form{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 27px;
+    width: 100%;
+    color: #133040;
+}
+.mortgage-Amount{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+}
+.mortgage-Amount input{
+    padding: 5px;
+    border: 1px solid #010155;
+    outline: 0;
+}
+.percents{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Terms , .interests{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px
+}
+.Terms input, .interests input{
+    padding: 7px;
+    outline: 0;
+    border-color: 1px solid #010155;
+    display: flex;
+    align-items: center;
+}
+.radios{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+    width: 100%;
+}
+.firstOption , .secondOption {
+    border: 1px solid #010155;
+    border-radius: 3px;
+    padding: 5px;
+}
+h2{
+    margin: 10px 0px;
+    color: #010155;
+    font-size: 20px;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submitBtn i{
+    margin-right: 10px;
+}
+.submitBtn:hover{
+    transition: 0.2s ease-in-out;
+    transform: scaleX(1.04)
+}
+.submitBtn{
+    padding:10px 20px;
+    word-spacing: 0.5px;
+    border: 1px solid #d9dc2d;
+    background-color: #d9dc2d;
+    color: #133040;
+    border-radius: 20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.resultPage{
+    background-color: #133040;
+    border: 1px solid #133040;
+    border-bottom-left-radius: 45px;
+    width: 50%;
+    overflow: hidden;
+    padding: 0 20px;
+    height: 540px;
+}
+.emptyResultPage{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+h3{
+    color: #e1f6fb;
+    font-size: 23px;
+    word-spacing: 0.3px;
+    margin-bottom: 0px;
+}
+.emptyResultPage p{
+    text-align: center;
+    color: #e1f6fb;
+    opacity: 0.6;
+    word-break: normal;
+}
+.ful-filledResultPage{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.ful-filledResultPage h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.ful-filledResultPage p{
+    opacity: 0.7;
+    font-size: 14px;
+}
+.Results{
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    margin-top: 10px;
+    background-color: #0e2431;
+    border-color: #0e2431;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px -4px 0px #c8cd4c;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.Results h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+
+}
+.InterestRateBlock{
+    font-size: 45px;
+    color: #c8cd4c;
+}
+.totalBlock{
+    font-size: 30px;
+    opacity: 0.6;
+}
+hr{
+    border: 1px solid #203643;
+    margin: 40px 0px;
+}
+
+.active{
+    display: flex;
+}
+.bg-color{
+    background-color: #c8cd4c;
+}
+.d-none{
+    display: none;
+}
+
+
+
+
+
+
+
+
